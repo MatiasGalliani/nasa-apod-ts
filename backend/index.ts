@@ -1,9 +1,16 @@
 import "dotenv/config";
 import express, { type Request, type Response } from "express";
+import cors from "cors";
 
 const app = express();
-
 const PORT = 8000;
+const originAllowed = process.env.ORIGIN_ALLOWED;
+
+app.use(
+  cors({
+    origin: `${originAllowed}`,
+  }),
+);
 
 type Apod = {
   title: string;
