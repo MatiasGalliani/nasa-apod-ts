@@ -2,7 +2,7 @@
 
 Welcome to the Nasa APOD generator - Typescript Version!
 
-I already developed the same endpoint but on GOLang, and now I wanted to test my skill in my second favorite language.
+I already developed the same endpoint but on GOLang, and now I wanted to test my skills in my second favorite language.
 
 ## Stack used
 
